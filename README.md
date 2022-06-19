@@ -29,7 +29,9 @@ python -m unittest discover
 ```
 
 Once you have multiple test files, as long as you follow the test*.py naming pattern, you can provide the name of the directory instead by using the -s flag and the name of the directory:<br />
+```python
 python -m unittest discover -s tests
+```
 
 ### Other info
 Creating the __init__.py file means that the my_sum folder can be imported as a module from the parent directory.
